@@ -1,6 +1,7 @@
 package com.butler.mosh;
 
 import java.awt.*;
+import java.util.Arrays;
 import java.util.Date;  // When we use the java.util Date below, IntelliJ auto imports this package
 
 public class Main {     // Classes are named using PascalCase
@@ -52,5 +53,21 @@ public class Main {     // Classes are named using PascalCase
         // ARRAYS
         // To declare an array, we use int[] numbers = new int[5];  This array has 5 elements
         // Then we can use numbers[0] = 4, numbers[1] = 73, etc. to fill the array
+        // Arrays.toString(numbers)   This is what we call method OVERLOADING
+//        If we ran System.out.println(numbers), our output would show the space in memory where numbers[] is stored not the actual array
+//        However we can use System.out.println(Arrays.toString(numbers)) to output the contents of our array
+        // We can also initialize it as so: int[] numbers = { 4, 5, 17, 20, 1 } In Java, arrays have a fixed size
+
+        // CASTING
+        // short x=1;
+        // int y = x + 2;
+        // Since we are dealing with 2 different data types in x and 2, one must be converted. This is called implicit casting, or automatic casting
+        // byte > short > int > long > float > double   Implicit casting happens when there is no data loss
+        // If we wanted to explicitly cast, we could write  int y = (int)x + 2;
+
+        // MATH CLASS
+        // We can use Math.round() to round a floating number (overloaded method)
+        // Math.random() will give us a random floating number between 0 and 1. Math.random() * 100 will give us a number between 0 and 100.
+        // Sidenote: We cannot create an instance of an abstract class. One example of this is NumberFormat()
     }
 }
