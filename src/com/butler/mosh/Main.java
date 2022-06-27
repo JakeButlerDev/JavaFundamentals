@@ -69,5 +69,15 @@ public class Main {     // Classes are named using PascalCase
         // We can use Math.round() to round a floating number (overloaded method)
         // Math.random() will give us a random floating number between 0 and 1. Math.random() * 100 will give us a number between 0 and 100.
         // Sidenote: We cannot create an instance of an abstract class. One example of this is NumberFormat()
+
+        // READING INPUT
+//        Scanner scanner = new Scanner(System.in); `// In parentheses, where are we reading data from? System.in is terminal
+//        System.out.print("Age: ");
+//        byte age = scanner.nextByte();
+//        System.out.println("You are " + age);
+        // We have implicit casting here, Java will turn age into a string in order to concatenate
+        // Every time we call the next method, it reads only 1 token, nextLine will give us the entire line of input
+
+        //TYPES SUMMARY
     }
 }

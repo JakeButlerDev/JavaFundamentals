@@ -1,4 +1,4 @@
-package com.butler.warmups_6_14.findTheIndex;
+package com.butler.algorithms.findTheIndex;
 
 public class Main {
     // Create main method

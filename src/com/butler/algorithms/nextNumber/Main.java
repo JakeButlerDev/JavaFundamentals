@@ -1,4 +1,4 @@
-package com.butler.warmups_6_14.nextNumber;
+package com.butler.algorithms.nextNumber;
 
 public class Main {
     // Create main method

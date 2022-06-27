@@ -1,4 +1,4 @@
-package com.butler.warmups_6_14.minToSec;
+package com.butler.algorithms.minToSec;
 
 public class Main {
     // Create main method

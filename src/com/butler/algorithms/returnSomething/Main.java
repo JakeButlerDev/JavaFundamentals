@@ -1,4 +1,4 @@
-package com.butler.warmups_6_14.returnSomething;
+package com.butler.algorithms.returnSomething;
 
 public class Main {
     public static void main(String[] args) {

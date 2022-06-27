@@ -1,4 +1,4 @@
-package com.butler.warmups_6_14.getFirstElement;
+package com.butler.algorithms.getFirstElement;
 
 public class Main {
     // Create main method
