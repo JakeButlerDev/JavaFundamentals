@@ -76,8 +76,33 @@ public class Main {     // Classes are named using PascalCase
 //        byte age = scanner.nextByte();
 //        System.out.println("You are " + age);
         // We have implicit casting here, Java will turn age into a string in order to concatenate
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("Name: ");
+//        String name = scanner.nextLine().trim()     //Trim will get rid of any whitespace
+//        System.out.println("You are " + name);
         // Every time we call the next method, it reads only 1 token, nextLine will give us the entire line of input
 
-        //TYPES SUMMARY
+        //CONTROL FLOW
+//        int temperature = 22;
+//        boolean isWarm = temperature > 20 && temperature < 30;
+//        System.out.println(isWarm);
+        // Java will read left to right, if first statement is false with && it will not even test the other statement
+//        boolean hasHighIncome = false;
+//        boolean hasGoodCredit = true;
+//        boolean hasCriminalRecord = false;
+//        boolean isEligible = (hasGoodCredit || hasHighIncome) && !hasCriminalRecord;    // If first expression was false, Java would continue to evaluate rest of statement
+        // We want to write a program that outputs:
+        // If temp is greater than 30, "It's a hot day", "Drink plenty of water"
+        // Otherwise, if it's between 20 and 30, "It's a nice day"
+        // Otherwise, "It's cold"
+//        int temp = 32;
+//        if(temp > 30) {
+//            System.out.println("It's a hot day");
+//            System.out.println("Drink plenty of water");
+//        } else if (temp > 20 && temp <=30) {    // We don't really need the second part here, since if it is greater than 30 we already covered that condition
+//            System.out.println("Beautiful day");
+//        } else {
+//            System.out.println("Cold day");
+//        }
     }
 }
