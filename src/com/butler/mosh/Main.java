@@ -104,5 +104,71 @@ public class Main {     // Classes are named using PascalCase
 //        } else {
 //            System.out.println("Cold day");
 //        }
+        // Simplifying IF statements
+//        int income = 120_000;
+//        boolean hasHighIncome = (income > 100_000);   // We have a boolean expression on the right side, if that equates to true then so does our boolean variable
+        // Ternary Operator
+//        int income = 120_000;
+//        String className = income > 100_000 ? "First" : "Economy";
+//        This expression reads, if income is greater than 100_000, className = "First", otherwise className = "Economy"
+        // Switch statements
+//        String role = "admin";
+//        switch (role) {
+//            case "admin":
+//                System.out.println("You're an admin");
+//                break;
+//            case "moderator":
+//                System.out.println("You're a moderator");
+//                break;
+//            default:
+//                System.out.println("You're a guest");
+//        }     Switch statement let us execute a block of code depending on the value of the expression
+        // FOR Loops
+//        for (int i = 0; i < 5; i++){
+//            System.out.println("Hello World");      // This code will execute 5 times, evaluating the boolean and running the code below before incrementing
+//        }
+        // WHILE Loops
+//        int i = 0;
+//        while (i > 0) {
+//            System.out.println("Hello World");
+//            i--;
+//        }
+        // When you know ahead of time how often to repeat a code block, a for loop will function better
+        // If we want to run code until a particular condition is met, a while loop will function better
+//        String input = "";
+//        Scanner scanner = new Scanner(System.in);   // Better to create scanner outside of while loop, otherwise we will create a new instance each time loop runs
+////        while (input != "quit") {   // This will not run!! Since our variable is a reference type, it will show the memory location, NOT the value. Instead we use:
+//        while (!input.equals("quit")) {
+//            System.out.println("Input: ");
+//            input = scanner.next();
+//            System.out.println(input);
+//
+//        }     Do.. while loop is the same but gets executed AT LEAST once
+//        do {
+//            System.out.println("Input: ");
+//            input = scanner.next();
+//            System.out.println(input);
+//        } while (!input.equals("quit"));
+        // With while loops, we check the condition first. Do..while loops check the condition after running the code block. Mostly we will use while loops
+//        Common technique for while loops:
+//        Scanner scanner = new Scanner(System.in);
+//        String input = "";
+//        while (true) {
+//            System.out.println("Input: ");
+//            input = scanner.next().toLowerCase();
+//            if (input.equals("pass"))
+//                continue;
+//            if (input.equals("quit"))
+//                break;        This break will terminate our loop
+//            System.out.println(input);
+//        }
+        // FOR EACH Loops
+//        String[] fruits = { "Apple", "Mango", "Orange"};
+//        for (int i=0; i < fruits.length; i++) {
+//            System.out.println(fruits[i]);
+//        } can be written as:
+//        for (String fruit : fruits) {
+//            System.out.println(fruit);
+//        }   Limitations of for each loop are, we can move forward only. We cannot access index of each element, only the element itself
     }
 }
